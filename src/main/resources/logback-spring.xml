@@ -25,7 +25,7 @@
     </encoder>
     <!-- 滚动策略，按时间滚动，每天一个日志-->
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-        <fileNamePattern>F:/日志/info.%d.log</fileNamePattern>
+        <fileNamePattern>logs/info.%d.log</fileNamePattern>
     </rollingPolicy>
 </appender>
 
